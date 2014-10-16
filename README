@@ -5,3 +5,5 @@ usage
 script currently accepts range in CIDR or single IP.
 
 needs modules netaddr and pyopenssl from pip or easy_install
+
+latest update adds second argument for a timeout value in seconds. 
