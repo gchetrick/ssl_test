@@ -1,3 +1,5 @@
+#GPL License
+#Version 1.0
 #!/usr/bin/python
 from OpenSSL import SSL
 from socket import socket
