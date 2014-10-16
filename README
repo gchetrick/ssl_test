@@ -1,0 +1,5 @@
+usage
+
+./ssl_test.py <ipaddress>
+
+script currently accepts range in CIDR or single IP.
