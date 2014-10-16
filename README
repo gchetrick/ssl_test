@@ -3,3 +3,5 @@ usage
 ./ssl_test.py <ipaddress>
 
 script currently accepts range in CIDR or single IP.
+
+needs modules netaddr and pyopenssl from pip or easy_install
