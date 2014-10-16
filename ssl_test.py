@@ -16,8 +16,8 @@ context.set_options(SSL.OP_NO_SSLv2)
 for ip in list:
   try:
     sock = socket()
-    if argv[2]:
-      sock.settimeout(argv[2])
+#    if argv[2]:
+#      sock.settimeout(argv[2])
     ssl_sock = SSL.Connection(context, sock)
     ssl_sock.connect((str(ip), 443))
     ssl_sock.do_handshake()
